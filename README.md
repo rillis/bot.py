@@ -33,7 +33,7 @@ Install - Dependencies:
     Usage: `bot.mouse_move(x, y, w, h, [click], [debug], [movspeed])`  
       
     #### Optionals:  
-    "click": str, should be "left", "right" or "double", default ""  
+    "click": str, should be "left", "right", "double" or "none", default "none"  
     "movSpeed": float, the higher movSpeed slower mouse speed, default 1  
     "debug": bool, that shows where mouse will go, default False  
     
