@@ -35,5 +35,7 @@ Install - Dependencies:
     #### Optionals:  
     "click": str, should be "left", "right", "double" or "none", default "none"  
     "movSpeed": float, the higher movSpeed slower mouse speed, default 1  
-    "debug": bool, that shows where mouse will go, default False  
+    "debug": bool, prints where mouse will go, default False  
+  
+
     
