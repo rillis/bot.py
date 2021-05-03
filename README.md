@@ -11,7 +11,7 @@ Install - Dependencies:
   
     print(bot.error, "Error message")
     print(bot.warn, "Warning message")
-    print(bot.info, "Error message")
+    print(bot.info, "Info message")
     ```
   
 - #### Mouse position:
@@ -30,7 +30,7 @@ Install - Dependencies:
   
     bot.mouse_move(100,100,10,10, click="left", debug=True)
     ```
-    Usage: `bot.mouse_move(x, y, w, h, [click], [debug], [movspeed])`  
+    Usage: `bot.mouse_move(x, y, w, h, [click], [debug], [movSpeed])`  
       
     #### Optionals:  
     "click": str, should be "left", "right", "double" or "none", default "none"  
